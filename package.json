@@ -35,6 +35,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.4.0",
     "controlkit": "^0.1.9",
+    "cross-env": "^5.0.0",
     "ghp": "^1.1.4",
     "glslify-loader": "pqml/glslify-loader",
     "raf": "github:pqml/raf",
@@ -46,7 +47,5 @@
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0"
   },
-  "dependencies": {
-    "cross-env": "^5.0.0"
-  }
+  "dependencies": {}
 }
