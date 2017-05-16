@@ -1,6 +1,6 @@
 {
   "name": "protothree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Three.js boilerplate for rapid and modulable prototyping",
   "main": "src/app.js",
   "scripts": {
