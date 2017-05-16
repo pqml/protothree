@@ -1,0 +1,52 @@
+{
+  "name": "protothree",
+  "version": "0.1.0",
+  "description": "Three.js boilerplate for rapid and modulable prototyping",
+  "main": "src/app.js",
+  "scripts": {
+    "deploy": "npm run build-example && ghp example",
+    "build-example": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js --progress",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.dev.js --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqml/protothree.git"
+  },
+  "keywords": [
+    "three.js",
+    "glslify",
+    "browserify",
+    "budo",
+    "boilerplate"
+  ],
+  "author": "pqml",
+  "license": "MIT",
+  "directories": {
+    "example": "example"
+  },
+  "bugs": {
+    "url": "https://github.com/pqml/protothree/issues"
+  },
+  "homepage": "https://github.com/pqml/protothree#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "controlkit": "^0.1.9",
+    "ghp": "^1.1.4",
+    "glslify-loader": "pqml/glslify-loader",
+    "raf": "github:pqml/raf",
+    "raw-loader": "^0.5.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.85.2",
+    "three-orbit-controls": "^82.1.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.0.0"
+  }
+}
