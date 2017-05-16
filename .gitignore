@@ -1,5 +1,4 @@
-build
-dist
+example/example.bundle.js
 
 ## Node
 .tmp
