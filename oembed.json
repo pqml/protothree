@@ -1,0 +1,15 @@
+{
+  "provider_url": "https://pqml.github.io",
+  "thumbnail_width": 720,
+  "height": 360,
+  "thumbnail_url": "https://pqml.github.io/protothree/share.jpg",
+  "author_name": "pqml",
+  "thumbnail_height": 405,
+  "title": "Test",
+  "html": "<div class=\"sketchfab-embed-wrapper\"><iframe width=\"640\" height=\"360\" src=\"https://pqml.github.io/protothree?embed\" frameborder=\"0\" allowvr allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"><\/iframe>\n\n<p style=\"font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;\">\nTest\n<\/p>\n<\/div>",
+  "width": 640,
+  "version": "1.0",
+  "author_url": "https://pqml.github.io/protothree",
+  "provider_name": "Github",
+  "type": "rich"
+}
